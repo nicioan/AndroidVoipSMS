@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <EditTextPreference android:summary="Void provider name" android:key="voipprovider" android:title="Voip Provider"></EditTextPreference>
+        <EditTextPreference android:key="username" android:title="User Name" android:summary="Voip account username"></EditTextPreference>
+        <EditTextPreference android:summary="Voip account password" android:key="password" android:title="Password" android:password="true"></EditTextPreference>
+        <EditTextPreference android:key="number" android:title="Phone Number" android:summary="Associated phone number"></EditTextPreference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

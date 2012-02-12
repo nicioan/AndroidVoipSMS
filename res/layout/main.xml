@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ToNumberLabel" android:text="@string/ToString"></TextView>
+    <RelativeLayout
+        android:id="@+id/RelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText android:inputType="phone" android:layout_height="wrap_content" android:id="@+id/ToNumberText" android:layout_width="240dp"></EditText>
+        <Button android:id="@+id/PickNumber" android:text="@string/PickNumberString" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/ToNumberText"></Button>
+    </RelativeLayout>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TextField" android:id="@+id/SMSTextLabel"></TextView>
+    <EditText android:id="@+id/SMSText" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textMultiLine" android:layout_weight="0.25">
+        <requestFocus></requestFocus>
+    </EditText>
+    <Button android:id="@+id/SendButton" android:layout_height="wrap_content" android:text="@string/send" android:layout_weight="0.01" android:layout_width="141dp"></Button>
+</LinearLayout>

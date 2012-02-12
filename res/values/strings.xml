@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SendVoipSMS!</string>
+    <string name="app_name">VoipSMS</string>
+    <string name="send">Send VoipSMS</string>
+    <string name="ToString">To (Phone Number):</string>
+    <string name="TextField">SMS Text:</string>
+    <string name="PickNumberString">Browse...</string>
+</resources>
